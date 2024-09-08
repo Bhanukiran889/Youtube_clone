@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    background-color: #141414;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    z-index: 0;
+}
+
+.topbar{
+    height: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 30px 0;
+
+}
+
+
+.name{
+    font-family: 'Oswald', sans-serif;}
+
+.logo{
+    height: 100%;
+    width: auto;
+}
+
+span{
+    padding: 0 10px 0 10px;
+    color: #ffffff;
+    border-width: 1px;
+}
+
+.YouTube{
+    height: 70px;
+    width: auto;
+}
+
+.explore{
+    border-radius: 100px;
+    background-color: #303030;
+    height: 45px;
+    width: 45px;
+    
+
+}
+
+.search input{
+    border-radius: 25px;
+    background-color: #222222;
+    border: none;
+    padding:  0 0 0 15px;
+    width: 60vw;
+    color: #ececec;
+
+}
+.history{
+
+    background-color: #252525;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 20px 10px 12px 10px;
+    max-width: 500px;
+}
+.setting-btn{
+    background-color: #383838;
+    border: none;
+    border-radius: 25px;
+    font-size: 12px;
+    color: #ececec;
+    padding: 5px 0 5px 0;
+    height: 35px;
+    
+}
+.history h1{
+    color: #ececec;
+    font-size: 18px;
+    font-weight: 600;
+}
+.history p{
+    color: #bbbbbb;
+    font-size: 14px;
+}
+.nav-bar {
+    position: fixed;
+    bottom: 0; 
+    width: 100%; 
+    background-color: #121212; 
+    padding:  10px 0 0 0; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+    z-index: 1000;
+    border: 0.0009px solid ;
+    border-color: #141414;
+    border-top-color: #585858;
+}
+.material-symbols-outlined{
+    font-size: 30px;
+}
+
+.nav-bar p{
+    font-size: 10px;
+    color: #cecece;
+    text-align: center;
+}
+.w{
+    width: 50px;
+}
